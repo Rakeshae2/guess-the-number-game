@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: skyblue;
+}
+.modebtn{
+    border-radius: 20px;
+    height: 35px;
+    width: 70px;
+    margin-left: 90%;
+    margin-top: 20px;
+}
+.modebtn>div{
+    border-radius: 50%;
+    border: 2px solid;
+    height: 20px;
+    width: 20px;
+    background-color: coral;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid;
+    width: 300px;
+    margin-top: 15%;
+}
+.card>button{
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: navajowhite;
+}
+.card>input{
+    border-radius: 10px;
+    height: 20px;
+    width: 200px;
+}
